@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonC"
+        android:layout_width="@dimen/buttonC_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_blue_light" />
+
+    <Button
+        android:id="@+id/buttonD"
+        android:layout_width="@dimen/buttonD_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_below="@+id/buttonC"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/button_MarginTop"
+        android:background="@android:color/holo_green_dark" />
+
+    <Button
+        android:id="@+id/buttonE"
+        android:layout_width="@dimen/buttonE_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_below="@+id/buttonD"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/button_MarginTop"
+        android:background="@android:color/holo_orange_dark" />
+
+    <Button
+        android:id="@+id/buttonF"
+        android:layout_width="@dimen/buttonF_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_below="@+id/buttonE"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/button_MarginTop"
+        android:background="@android:color/holo_orange_light" />
+
+    <Button
+        android:id="@+id/buttonG"
+        android:layout_width="@dimen/buttonG_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_below="@+id/buttonF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/button_MarginTop"
+        android:background="@android:color/holo_purple" />
+
+    <Button
+        android:id="@+id/buttonA"
+        android:layout_width="@dimen/buttonA_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_below="@+id/buttonG"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/button_MarginTop"
+        android:background="@android:color/holo_red_dark" />
+
+    <Button
+        android:id="@+id/buttonB"
+        android:layout_width="@dimen/buttonB_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_below="@+id/buttonA"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/button_MarginTop"
+        android:layout_marginBottom="30dp"
+        android:background="?attr/colorControlActivated" />
+</RelativeLayout>
